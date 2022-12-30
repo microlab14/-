@@ -1,0 +1,50 @@
+body {
+  color: #66BFBF;
+  font-family: 'Jost', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  background-color: #E4F9F5;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Shalimar', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #66BFBF;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}

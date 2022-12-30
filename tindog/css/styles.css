@@ -1,0 +1,160 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container {
+    padding-top: 3rem;
+}
+
+#title {
+    background-color: #ff3c68;
+    color: #fff;
+    overflow: hidden;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 0;
+}
+
+.download-button:not(:last-child) {
+    margin-left: 5%;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+#features {
+    text-align: center;
+    margin-top: -12.5%;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.features-text {
+    padding-top: 0 !important;
+}
+
+.icon {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    /*padding: 7% 15%;*/
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.card-desk {
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.card-desk > * {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-desk .col-lg-4 {
+    width: 30%;
+}
+
+.card-desk .card-header {
+    padding-bottom: 1.5rem;
+}
+
+#cta {
+    background-color: #ff3c68;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 3rem;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (max-width:1400px) {
+    html {
+        font-size: 14px;
+    }
+    #testimonials h2 br {
+        display: none;
+    }
+}
